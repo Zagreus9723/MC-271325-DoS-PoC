@@ -2,7 +2,7 @@
 
 Unauthenticated clients can make vanilla and Fabric Minecraft servers write large stack traces to `latest.log` by sending a valid status handshake followed by a malformed status packet, taking up CPU cycles and memory, as well as writing gig+ log files.
 
-Minecraft bug report: [MC-271325](https://bugs.mojang.com/browse/MC-271325)   
+Minecraft bug report: [MC-271325](https://bugs.mojang.com/browse/MC-271325) (2 years old!)
 ---
 
 ## What happens
