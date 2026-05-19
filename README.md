@@ -1,4 +1,4 @@
-# Status trailing-byte log amplification (MC-271325)
+# Log amplification based denial for service for vanilla Minecraft (MC-271325)
 
 Unauthenticated clients can make vanilla and Fabric Minecraft servers write large stack traces to `latest.log` by sending a valid status handshake followed by a malformed status packet, taking up CPU cycles and memory, as well as writing gig+ log files.
 
