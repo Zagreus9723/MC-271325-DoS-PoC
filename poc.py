@@ -3,9 +3,7 @@
 
 Connects with a normal status handshake, then sends a 3-byte invalid status
 request. On vulnerable vanilla/Fabric builds the server logs a full Netty
-stack trace per connection. Paper 1.21.11+ suppresses this path in testing.
-
-See working-pocs/pocs/status_trailing_byte_dos/README.md for background.
+stack trace per connection.
 """
 
 from __future__ import annotations
